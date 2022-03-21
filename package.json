@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "whatsapp API by Yanoe",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js"
+  ],
+  "author": "Yanuar Krisna Pamuja",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "express-validator": "^6.14.0",
+    "http": "^0.0.1-security",
+    "puppeteer": "^13.5.1",
+    "qrcode": "^1.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.4.1",
+    "whatsapp-web.js": "^1.16.4"
+  }
+}
